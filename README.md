@@ -40,11 +40,8 @@ logs/
 networking/
 permissions/
 scripts/
-```
+--
 
----
 
-## Notes
 
-Detailed learning notes are stored in:
-- project-notes
+##project-notes
