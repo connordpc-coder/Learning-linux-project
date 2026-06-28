@@ -1,18 +1,50 @@
-# Learning-linux-project
-Personal Linux administration and scripting learning project documenting Linux commands, permissions, services, troubleshooting and automation practice.
-
 # Learning Linux Project
 
-Personal Linux learning project focused on:
-- Linux commands
-- permissions
-- scripting
-- troubleshooting
-- process/service management
+Personal Linux learning project focused on Linux administration,
+permissions, scripting, troubleshooting and automation.
 
-Current progress:
+---
+
+## Current Topics
+
+- Linux commands
+- File permissions
+- Bash scripting
+- Process and service management
+- Networking basics
+- Troubleshooting
+
+---
+
+## Current Progress
+
+Completed:
 - VM setup
-- time synchronization troubleshooting
-- basic bash scripting
-- file permissions
-- directory structure
+- Time synchronization troubleshooting
+- Basic bash scripts
+- chmod permissions
+- Directory structures
+- system-info.sh script
+
+Currently learning:
+- Process management
+- Services
+- systemctl
+
+---
+
+## Project Structure
+
+automation/
+logs/
+networking/
+permissions/
+scripts/
+```
+
+---
+
+## Notes
+
+Detailed learning notes are stored in:
+- project-notes
