@@ -25,11 +25,13 @@ Completed:
 - chmod permissions
 - Directory structures
 - system-info.sh script
+- Services
+- Process management
 
 Currently learning:
 - Process management
 - Services
-- systemctl
+- Logging
 
 ---
 
@@ -44,4 +46,4 @@ scripts/
 
 
 
-##project-notes
+## Project-Notes
