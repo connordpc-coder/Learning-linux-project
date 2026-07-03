@@ -82,4 +82,29 @@ scripts/
 ---
 
 ### scripting
--
+
+- chmod= change mode permission
+- x= execute permission
+- += add/modifier
+- |= takes output and passes it on
+- (example) chmod +x backup.sh = make this file (backup.sh) runnable
+
+  ---
+  
+### permission values
+
+- d= directory
+- -= file
+-  r=read=4
+-  w=write=2
+-  x= execute=1
+-  0=do nothing
+-  7=4+2+1=rwx
+-  6=4+2=rw
+-  5=4+1=r-x
+-  chmod 700 = rwx, do nothing,do nothing
+-  644=read/write
+-  755=onwer has full control others can only read and execute but not edit
+  ---
+
+  ### processes and management
