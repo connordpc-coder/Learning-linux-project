@@ -61,21 +61,21 @@ scripts/
 ---
 
 ### commands
--pwd= where am i?
--ls= whats here?
----ls variants ls -l,ls -a,ls -la
--mkdir= make directory/ folder
--touch= make file 
--cat= view file/quick look
--cp= copy file /folder
--mv= move/rename file
--rm = delete file
--ps aux= identifies user activity 
--systemd= service manager- daemon
--chronyd= time sync service- daemon
--bash= asctive shell session
--top= system mionitoring tool- cpu / memory usage
--htop= easier to read top
+- pwd= where am i?
+- ls= whats here?
+--- ls variants ls -l,ls -a,ls -la
+- mkdir= make directory/ folder
+- touch= make file 
+- cat= view file/quick look
+- cp= copy file /folder
+- mv= move/rename file
+- rm = delete file
+- ps aux= identifies user activity 
+- systemd= service manager- daemon
+- chronyd= time sync service- daemon
+- bash= asctive shell session
+- top= system mionitoring tool- cpu / memory usage
+- htop= easier to read top
 
 ---
 
