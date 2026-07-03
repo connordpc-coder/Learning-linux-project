@@ -5,6 +5,15 @@ permissions, scripting, troubleshooting and automation.
 
 ---
 
+
+## Planned Next Steps
+-expand the enviroment into a multi machine network (P2P)
+-configure SSH communication between VMs
+-practice client/server networking
+-explore firewall rules and network troubleshooting
+-continued improvement on system monitoring and scripting
+
+
 ## Current Topics
 
 - Linux commands
@@ -42,8 +51,33 @@ logs/
 networking/
 permissions/
 scripts/
---
+---
 
 
 
 ## Project-Notes
+(screenshots will be added to my screenshot folder-ongoing)
+
+---
+
+### commands
+-pwd= where am i?
+-ls= whats here?
+---ls variants ls -l,ls -a,ls -la
+-mkdir= make directory/ folder
+-touch= make file 
+-cat= view file/quick look
+-cp= copy file /folder
+-mv= move/rename file
+-rm = delete file
+-ps aux= identifies user activity 
+-systemd= service manager- daemon
+-chronyd= time sync service- daemon
+-bash= asctive shell session
+-top= system mionitoring tool- cpu / memory usage
+-htop= easier to read top
+
+---
+
+### scripting
+-
