@@ -7,11 +7,12 @@ permissions, scripting, troubleshooting and automation.
 
 
 ## Planned Next Steps
--expand the enviroment into a multi machine network (P2P)
--configure SSH communication between VMs
--practice client/server networking
--explore firewall rules and network troubleshooting
--continued improvement on system monitoring and scripting
+
+- expand the enviroment into a multi machine network (P2P)
+- configure SSH communication between VMs
+- practice client/server networking
+- explore firewall rules and network troubleshooting
+- continued improvement on system monitoring and scripting
 
 
 ## Current Topics
