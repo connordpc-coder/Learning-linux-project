@@ -61,6 +61,7 @@ scripts/
 ---
 
 ### commands
+
 - pwd= where am i?
 - ls= whats here?
 --- ls variants ls -l,ls -a,ls -la
