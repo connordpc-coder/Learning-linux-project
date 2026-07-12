@@ -108,3 +108,66 @@ scripts/
   ---
 
   ### processes and management
+
+
+- daemon = background service that runs continously without user interaction
+- systemctl status = view serivice status
+-  ...ctl restart =  restart a service
+-  ...ctl stop = stop a service
+-  ...ctl start = start a service
+-  ...ctl is enabled= checks if service is active
+
+- example practiced with: systemctl ... chronyd following syncing issues with the vm
+
+---
+
+ ### loggimg
+
+ used to check movement in services similar to transactional movements on sap 
+
+ - history= inputs logged in session
+ - journalctl= displays systems logs/journal
+ - ... -xe = recent logs in more detail
+ - ... -u ssh = logs for ssh service
+ - ... -b = logs since last boot
+ - ... -p warning= shows warnings, error and critcal log messages
+ -  -p = priority
+
+ -  used jornalctl to understand how to navigate back through logs
+ -  filtered logs by service when ;ooking at ssh logs(-u ssh)
+ -  used systemctl to turn off ssh, view the logs then turn it back on and view again
+ -  view warnings using journalctl -p warning
+ -  learned ow to categories log messages by most important
+  
+   ---
+
+   ### Networking
+
+- resolver=translates domain names into ip
+- ARP=ip to find MAc
+- hostname= host machine
+- 127.0.0.1= loopback/ local host
+- ping google
+- ping 8.8.8.8
+- curl= to transfer /download data from servers
+- ipconfig.me= website that returns your public address
+- ip a= network interface and ip address
+- ss tuln= linux netstat equivelent shows listening ports
+- port 22= default network port used by ssh
+- ip route= routing table / default gateway
+- cat/etc/resolv.conf= shows dns resolver configurations
+- systemctl status ssh = checks ssh status
+- sudo systemctl stop/ start ssh= stops /starts ssh
+- sudo .... enable/disable ssh= shuts off or gets ssh back up and running
+- ssh localhost= tests if your local host is working
+- ssh-keygen= generates authentication keys
+- ip neigh= shows neighbouring devices 
+- reachable= device confirmed actice
+- stale = device known but inactive
+- failed = device unreachable
+
+ ---
+
+### automation
+---
+### VM clock sync troubleshooting
