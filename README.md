@@ -111,6 +111,8 @@ However, it was just a realisation on my part that when flipping the ntp server 
 - eventually this problem came up again making the ntp on and off an almost temporary solution and the permanent solution was the way i logged out the VM using save state rather than sudo shutdown now
 
  ![VM clock sync troublwshooting](screenshots/grep%20sync.png)
+ ![VM clock sync troublwshooting](screenshots/ntp%20on%20off.png)
+ ![VM clock sync troublwshooting](screenshots/sync%20clock%20net,process.png)
   
  
  
