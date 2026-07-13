@@ -112,7 +112,7 @@ However, it was just a realisation on my part that when flipping the ntp server 
 
  ![VM clock sync troublwshooting](screenshots/grep%20sync.png)
  ![VM clock sync troublwshooting](screenshots/ntp%20on%20off.png)
- ![VM clock sync troublwshooting](screenshots/sync
+ ![VM clock sync troublwshooting](screenshots/sync-1.png)
   
  
  
