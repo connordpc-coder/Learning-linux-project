@@ -75,19 +75,45 @@ scripts/
 - ps aux= identifies user activity 
 - systemd= service manager- daemon
 - chronyd= time sync service- daemon
-- bash= asctive shell session
+- bash= active shell session
 - top= system mionitoring tool- cpu / memory usage
 - htop= easier to read top
 
 ---
 
 ### VM clock sync troubleshooting
-
-After originally configuring and starting up my machine i ran a basic script that included sudo apt update and upgrade and when running it i came into my first issue of the vms system clock not working correctly.
+During my originalsetup of the Ubuntu VM and runnuing some basic scripts, i noticed vm's clock was not synchronising correctly.
+looked into the issue to filtered and diagnos the issue
 
 ![VM clock sync troublwshooting](screenshots/sync%20problem.png)
 
----
+#### Goal
+To get the Vm's clock working correctly, so i can update/upgrade the machine
+
+#### Ivestigation
+- i first used journalctl | grep -i time to see what was installed under time 
+- then verified the state of the clock with timedatectl status
+- aftrer that i then turned off the NTP server with sudo timedatectl set-ntp false then used timedatectl again to make sure its definately turned off
+- then switched it back on sudo timedatectl set-ntp true which booted the ntp server back up to the correct date
+
+ #### problem
+
+ after the investigation, i used timedatectl and realised that the clock still wasn't synced which initailly lead me to worry.
+ 
+ #### resolution
+However, it was just a realisation on my part that when flipping the ntp server on and off that the time service might take a minute or two before reaching the NTP server and confirming that the clock is synced and when using timedatectl the clock synchronisation status showed as "yes"
+ 
+ 
+ #### What i learned
+- how to troubleshoot time sync issues using timedatectl
+- the difference between an active NTP server and a synchronised clock
+- why linux server depend on time accuracy
+- eventually this problem came up again making the ntp on and off an almost temporary solution and the permanent solution was the way i logged out the VM using save state rather than sudo shutdown now
+
+ ![VM clock sync troublwshooting](screenshots/grep%20sync.png)
+  
+ 
+ 
 ### scripting
 
 - chmod= change mode permission
