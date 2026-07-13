@@ -83,9 +83,9 @@ scripts/
 
 ### VM clock sync troubleshooting
 
-After originally configuring and starting up my machine i ran a basic script that included sudo apt update and upgrade and when running it i casn into my first issue of the vms system clock not working correctly
+After originally configuring and starting up my machine i ran a basic script that included sudo apt update and upgrade and when running it i came into my first issue of the vms system clock not working correctly.
 
-sync problem.png
+![VM clock sync troublwshooting](image/sync problem.png)
 
 ---
 ### scripting
