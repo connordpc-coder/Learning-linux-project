@@ -118,12 +118,37 @@ However, it was just a realisation on my part that when flipping the ntp server 
  
 ### scripting
 
-- chmod= change mode permission
-- x= execute permission
-- += add/modifier
-- |= takes output and passes it on
-- (example) chmod +x backup.sh = make this file (backup.sh) runnable
+During this project i wanted to reduce the amount of repetitive cammands i had to type everytime i logged into my VM. 
 
+#### Goal
+
+- Learn and format basic bash scripting
+- understabd executable permissons
+- begin to transition from the idea of learning commands to optimising sacripts for workflow
+  
+#### Commands used
+
+- echo
+- date
+- hostname
+- whoami
+- pwd
+- uptime
+- chmod +x - makes files runnable
+- ./- runs file
+
+![scripting](script.sh.png)
+![scripting](script.sh-output)
+
+#### what i learned
+
+- shebang (#!/bin/bash)- execute the script using bash shell
+- varibles and expansions- name= connor,$name ,$project
+- echo can print both plain text and variables
+- how to apply permissons to make a file into a script
+- how to look for opportunities to shave time off a workload
+
+  
   ---
   
 ### permission values
