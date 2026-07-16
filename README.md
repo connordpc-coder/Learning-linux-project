@@ -165,7 +165,11 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 -  chmod 700 = rwx, do nothing,do nothing
 -  644=read/write
 -  755=onwer has full control others can only read and execute but not edit
+  
+  ![permission values](screenshots/folder%20permissons.png)
+  
   ---
+  
 
   ### processes and management
 
@@ -178,6 +182,7 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 -  ...ctl is enabled= checks if service is active
 
 - example practiced with: systemctl ... chronyd following syncing issues with the vm
+  s
 
 ---
 
