@@ -168,7 +168,7 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
   
   ![Permission Values](screenshots/folder-permissons.png)
   
-  ![connordpc-coder/Learning-linux-project](folder-permissons.png) 
+  
   
   ---
   
