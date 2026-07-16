@@ -137,8 +137,8 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 - chmod +x - makes files runnable
 - ./- runs file
 
-![scripting](script.sh.png)
-![scripting](script.sh-output)
+![scripting](screenshots/script.sh.png)
+![scripting](screenshots/script.sh-output)
 
 #### what i learned
 
