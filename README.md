@@ -166,7 +166,7 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 -  644=read/write
 -  755=onwer has full control others can only read and execute but not edit
   
-  ![Permission Values](screenshots/folder-permissons.png)
+  ![ Permission Values](screenshots/folder-permissons.png)
   
   ---
   
