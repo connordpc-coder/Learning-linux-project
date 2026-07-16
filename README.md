@@ -138,7 +138,7 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 - ./- runs file
 
 ![scripting](screenshots/script.sh.png)
-![scripting](screenshots/script.sh-output)
+![scripting](screenshots/script.sh-output.png)
 
 #### what i learned
 
