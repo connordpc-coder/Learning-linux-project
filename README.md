@@ -221,6 +221,8 @@ how a service are managed abd how to verify change
 ![Processes and Management](screenshots/SSHLOG.png)
 
 
+![Processes and Management](screenshots/SSHR.png)
+
 ---
 
  ### loggimg
