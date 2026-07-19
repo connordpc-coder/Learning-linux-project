@@ -207,15 +207,18 @@ how a service are managed abd how to verify change
 
 #### what i observed
 
-![Processes and Management](screenshots/.png)
+![Processes and Management](screenshots/SSHE.png)
 
-- Got confortable with viewing the status  the green highlights made it easy enough to verify the ssh is enabled and active
+- Got confortable with viewing the status the green highlights made it easy enough to verify the ssh is enabled and active
   
 
 
-![Processes and Management](screenshots/ssh-disabled.png)
+![Processes and Management](screenshots/SSHD.png)
 
-- stopped the ssh service and compared how the status of the service looked before and now 
+- stopped the ssh service and compared how the status of the service looked before and now. I think my own logic threw me off for a minute given how the ssh service and preset are stil green but then noticed two main factors of the service no longer being active, main one that it didnt have the additional green text of running and then at the bottom it has recent traffic log confirming its deactivation.
+
+
+![Processes and Management](screenshots/SSHLOG.png)
 
 
 ---
