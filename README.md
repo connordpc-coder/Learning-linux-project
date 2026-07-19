@@ -207,7 +207,11 @@ how a service are managed abd how to verify change
 
 #### what i observed
 
+
+
 ![Processes and Management](screenshots/SSHE.png)
+
+
 
 - Got confortable with viewing the status the green highlights made it easy enough to verify the ssh is enabled and active
   
@@ -215,16 +219,28 @@ how a service are managed abd how to verify change
 
 ![Processes and Management](screenshots/SSHD.png)
 
+
+
 - stopped the ssh service and compared how the status of the service looked before and now. I think my own logic threw me off for a minute given how the ssh service and preset are stil green but then noticed two main factors of the service no longer being active, main one that it didnt have the additional green text of running and then at the bottom it has recent traffic log confirming its deactivation.
 
 
 ![Processes and Management](screenshots/SSHLOG.png)
 
+
+
 - Then i used journalctl to get a feeling of what the next subject of logging would feel like and looked at the recent service activity. looking at the timestamps i can see when the commands i used affected the change in the service.
+
+
+
 
 ![Processes and Management](screenshots/SSHR.png)
 
+
+
 -then i restarted the service and vhecked the status again and compared it to my first screenshot and seems to be in the same state as before and then used the is-enabled command that confimrs the status of the service which fed back enabled
+
+
+
 
 #### what i learned
 
