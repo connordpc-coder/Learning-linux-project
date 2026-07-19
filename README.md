@@ -182,7 +182,7 @@ not compeletely uhderstading the numerical system and just kind of followed the 
   ---
   
 
-  ### processes and management
+  ### Processes and Management
 
 
 - daemon = background service that runs continously without user interaction
@@ -192,8 +192,31 @@ not compeletely uhderstading the numerical system and just kind of followed the 
 -  ...ctl start = start a service
 -  ...ctl is enabled= checks if service is active
 
-- example practiced with: systemctl ... chronyd following syncing issues with the vm
-  s
+#### Goal
+
+how a service are managed abd how to verify change
+
+#### commands used 
+
+- systemctl status ssh
+- systemctl stop ssh
+- systemctl start ssh
+- systemctl restart ssh
+- systemctl is-enabled ssh
+- journalctl -u ssh
+
+#### what i observed
+
+![Processes and Management](screenshots/.png)
+
+- Got confortable with viewing the status  the green highlights made it easy enough to verify the ssh is enabled and active
+  
+
+
+![Processes and Management](screenshots/ssh-disabled.png)
+
+- stopped the ssh service and compared how the status of the service looked before and now 
+
 
 ---
 
