@@ -220,8 +220,15 @@ how a service are managed abd how to verify change
 
 ![Processes and Management](screenshots/SSHLOG.png)
 
+- Then i used journalctl to get a feeling of what the next subject of logging would feel like and looked at the recent service activity. looking at the timestamps i can see when the commands i used affected the change in the service.
 
 ![Processes and Management](screenshots/SSHR.png)
+
+-then i restarted the service and vhecked the status again and compared it to my first screenshot and seems to be in the same state as before and then used the is-enabled command that confimrs the status of the service which fed back enabled
+
+#### what i learned
+
+That using system logs is always concrete proof that of a services health and state and its better to check the service as whole than use a stop and start command and just assume its state. Found this exercise as a healthly habit to build upon as i can see it as the starting point for many trouble shooting scenarios.  
 
 ---
 
