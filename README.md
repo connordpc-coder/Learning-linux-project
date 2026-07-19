@@ -166,9 +166,14 @@ During this project i wanted to reduce the amount of repetitive cammands i had t
 -  644=read/write
 -  755=onwer has full control others can only read and execute but not edit
 
+while learning i experimented with different permission values to add to my topic directories using chmod, using ls -l to verify each change.
+
+
+
   #### what i learned 
 
-  
+In the original practical learning phase of beginner linux labs, permissions felt the hardest for me to conceptualize 
+not compeletely uhderstading the numerical system and just kind of followed the examples. Whereas now after creating these scenarios for myself in my own machine its really helped me understand why these permissions levels are used and how i can read them with ls -l. 
   
   ![Permission Values](screenshots/FP.png)
   
