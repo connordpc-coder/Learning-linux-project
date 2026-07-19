@@ -255,7 +255,7 @@ That using system logs is always concrete proof that of a services health and st
 
 understand how to filter logs
 
- ![Logging](screenshots/JWP.png)
+ ![Logging](screenshots/JPW.png)
 
  #### Commands used
  - history= inputs logged in session
