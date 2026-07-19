@@ -248,23 +248,30 @@ That using system logs is always concrete proof that of a services health and st
 
 ---
 
- ### loggimg
+ ### Logging
 
- used to check movement in services similar to transactional movements on sap 
 
+#### Goal
+
+understand how to filter logs
+
+ ![Logging](screenshots/JWP.png)
+
+ #### Commands used
  - history= inputs logged in session
- - journalctl= displays systems logs/journal
- - ... -xe = recent logs in more detail
- - ... -u ssh = logs for ssh service
- - ... -b = logs since last boot
- - ... -p warning= shows warnings, error and critcal log messages
+ - journalctl
+ - ... -xe 
+ - ... -u ssh 
+ - ... -b 
+ - ... -p warning
  -  -p = priority
+   
 
- -  used jornalctl to understand how to navigate back through logs
- -  filtered logs by service when ;ooking at ssh logs(-u ssh)
- -  used systemctl to turn off ssh, view the logs then turn it back on and view again
- -  view warnings using journalctl -p warning
- -  learned ow to categories log messages by most important
+ #### what i learned
+
+ learned how to alter the standard to journalctl command to fit a specfic task. journalctl -p warning only shows events that are of a certain level (warning) and prioritises them. 
+ -xe gives additional gives more information on recent logs and would be effective stituations like a reoccuring crash.
+ journalctl -u can filter to a specfic service like in process and mangement when i was viewing the ssh status. Overall this element of linux i most like my current job using SAp so a lot of it clicked right away its just about getting used to what to search and filter for in specific tasks,  
   
    ---
 
