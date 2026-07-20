@@ -303,9 +303,38 @@ understand how to filter logs
 
 Networking is by far the largest topic im covering in this first project. Mainly to understand how kinux idenitifies interfaces and communicates with other devices as it'll be massively important going into my next project of builing a second vm and building a peer-to-peer network. 
   
+#### Basic configuraion
+
  ![Networking](screenshots/HOST1.png)
 
-####
+Used ip addr and hostname to find all the essitenals being the loopback,IPv4, MAC, an active interface and the hostname. This is important to know and understand when building into this next project becasue before the two machines can communicate correctly they first need the correct network configuration and i feel these would be the first troubleshhoting steps id take if the connection between the two machines broke in someway.
+
+
+#### Testing connection
+
+![Networking](screenshots/PING.png)
+
+Here i used ping to test the loopback, raw Ip communication and the DNS/ internet connection. By doing this if and issue between the two VM's were to occur using the three ping commands of 8.8.8.8, Google.com and localhost isolates where the machines connect is going wrong.
+
+#### Viewing Routing
+
+![Networking](screenshots/ROUTE.png)
+
+This is the routing table have a general understanding of it but will be much more important when that second vm connection is made and im able to see whats going on between the two machines.
+
+#### Viewing Neighbouring devices
+
+![Networking](screenshots/NEIGH.png)
+
+Similar agagin most of whats goiung on here will be better to guage when hopefully the neighbouring device on the network will be the second vm with its satus of being "REACHABLE".
+
+#### DNS lookup
+
+![Networking](screenshots/DIG.png)
+
+Used Dig here like the command it gave you very useful information by telling me the ip and which DNS gave me the answer. 
+
+
 
  ---
 
