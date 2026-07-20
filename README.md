@@ -328,11 +328,30 @@ This is the routing table have a general understanding of it but will be much mo
 
 Similar agagin most of whats goiung on here will be better to guage when hopefully the neighbouring device on the network will be the second vm with its satus of being "REACHABLE".
 
-#### DNS lookup
+#### DNS 
 
 ![Networking](screenshots/DIG.png)
 
 Used Dig here like the command it gave you very useful information by telling me the ip and which DNS gave me the answer. 
+
+#### SSH Key Authentication
+
+
+![Networking](screenshots/KEYGEN.png)
+
+![Networking](screenshots/LSSSH.png)
+
+![Networking](screenshots/PUB.png)
+
+i wanted to learn how an authentication system worked in linux. Generating keys enabled me to do that generating a key pair and helped me understand how a remote authentication is established.
+the key gen created two files one private and one public
+After that i used Ls -l to confirm the keys creation before theb looking at the public key
+
+#### How will this help in the upcoming project
+
+This lays the foundation for the next project, all these networking topics covered from identifying unterfaces to establishing a passwordless connection between to vms  will be fundamental to building and managing a peer to peer network connection as you would see in a small business setting. 
+
+
 
 
 
