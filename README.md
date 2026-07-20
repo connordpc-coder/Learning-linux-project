@@ -280,6 +280,9 @@ understand how to filter logs
 #### commands used and general reminders
 
 - 127.0.0.1= loopback/ local host
+- ip addr
+- hostname
+- hostname -l
 - ping google
 - ping 8.8.8.8
 - dig google.com
@@ -291,11 +294,18 @@ understand how to filter logs
 - cat/etc/resolv.conf= shows dns resolver configurations
 - ssh localhost= tests if your local host is working
 - ssh-keygen= generates authentication keys
+- ls ~/.ssh
+- cat ~/.ssh/id_ed25519.pub
 - ip neigh= shows neighbouring devices 
 - reachable= device confirmed actice
 - stale = device known but inactive
 - failed = device unreachable
 
+Networking is by far the largest topic im covering in this first project 
+  
+ ![Networking](screenshots/HOST.png)
+
+ 
 
  ---
 
