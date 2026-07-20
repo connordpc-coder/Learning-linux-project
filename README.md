@@ -301,11 +301,11 @@ understand how to filter logs
 - stale = device known but inactive
 - failed = device unreachable
 
-Networking is by far the largest topic im covering in this first project 
+Networking is by far the largest topic im covering in this first project. Mainly to understand how kinux idenitifies interfaces and communicates with other devices as it'll be massively important going into my next project of builing a second vm and building a peer-to-peer network. 
   
- ![Networking](screenshots/HOST.png)
+ ![Networking](screenshots/HOST1.png)
 
- 
+####
 
  ---
 
