@@ -277,28 +277,25 @@ understand how to filter logs
 
    ### Networking
 
-- resolver=translates domain names into ip
-- ARP=ip to find MAc
-- hostname= host machine
+#### commands used and general reminders
+
 - 127.0.0.1= loopback/ local host
 - ping google
 - ping 8.8.8.8
-- curl= to transfer /download data from servers
+- dig google.com
 - ipconfig.me= website that returns your public address
 - ip a= network interface and ip address
 - ss tuln= linux netstat equivelent shows listening ports
 - port 22= default network port used by ssh
 - ip route= routing table / default gateway
 - cat/etc/resolv.conf= shows dns resolver configurations
-- systemctl status ssh = checks ssh status
-- sudo systemctl stop/ start ssh= stops /starts ssh
-- sudo .... enable/disable ssh= shuts off or gets ssh back up and running
 - ssh localhost= tests if your local host is working
 - ssh-keygen= generates authentication keys
 - ip neigh= shows neighbouring devices 
 - reachable= device confirmed actice
 - stale = device known but inactive
 - failed = device unreachable
+
 
  ---
 
