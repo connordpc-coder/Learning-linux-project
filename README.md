@@ -17,12 +17,7 @@ permissions, scripting, troubleshooting and automation.
 
 ## Current Topics
 
-- Linux commands
-- File permissions
-- Bash scripting
-- Process and service management
-- Networking basics
-- Troubleshooting
+
 
 ---
 
@@ -37,27 +32,27 @@ Completed:
 - system-info.sh script
 - Services
 - Process management
-
-Currently learning:
 - Process management
 - Services
 - Logging
+- SSH key generation
+
+Currently learning:
 
 ---
 
 ## Project Structure
 
-automation/
-logs/
-networking/
-permissions/
-scripts/
+Automation/
+Logs/
+Networking/
+Permissions/
+Scripts/
 ---
 
 
 
 ## Project-Notes
-(screenshots will be added to my screenshot folder-ongoing)
 
 ---
 
