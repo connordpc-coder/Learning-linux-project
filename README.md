@@ -46,6 +46,7 @@ Currently learning:
 Automation/
 Logs/
 Networking/
+Process and Management/
 Permissions/
 Scripts/
 ---
@@ -56,7 +57,7 @@ Scripts/
 
 ---
 
-### commands
+### Commands
 
 - pwd= where am i?
 - ls= whats here?
@@ -360,18 +361,17 @@ This lays the foundation for the next project, all these networking topics cover
 
 
 
-
-
-
-
-
-
-
-
+Built a script that does a bit more than my previous ones has more commands ive been learning recently that provide a decent level of utility. The full script reports the hostname, IP address,running services, disk and memory usage allowing me to cgeck the machines configuration and condition in one prompt, these types of check ups will be vital in my next project to help initial trubleshooting as well as scripts that can cut corners or at the very least make things easier.
 
 
 
 
 
 ### Project Summary
+
+Overall, i think since i started learning about IT/ Networking back in january on a theory based level i was quite uncertain if i could really ever do well in a feild like this but i think since leaving the theory beginner certs and practice labs to creating something for myself in this project its made the world of a difference because i can just keep practicing things until they feel natural.
+The part of the project i felt i struggled with the most is probably the learning curve of uding Github rather than anything i could've done in the VM, the formatting feels very strict alot like what you can deal with in a terminal and i held the documentating process off for a long while with Github i'd instead write up small thoughts up in a file in my VM up until maube Logging were i thought i got comfortable enough in linux to really try with Github.
+What suprised me Most is how naturally i took to being able to read through logs, there is a connection to it at my current job were id have to do some investigative work to track an items movement on SAP regularly and this part just clicked with the logging work well. Something i became much more confident with compared to my knowledge prior was definately permission values, kearning the numerical codes top to bottomfelt so much simplier than what i made it out to be in the TryHackMe labs it looked veru overwheleming again questioning if i really could work in this type of feild but when i built all my directories and files and applied the permissions to them everything made sense. i think what will happen in my next project will be much bigger compared to this as this is mainly topic based it'll be more project based including the enviorments setup, network configuration, remote admin work, file transfers and more. i think if the next project gets the best of me and enables me to work at morre of an advance level, it'll only do right by me and hopefully better my chances of working in this type of field.  
+
+
 ---
