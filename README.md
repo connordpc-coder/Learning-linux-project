@@ -359,8 +359,9 @@ This lays the foundation for the next project, all these networking topics cover
 
 ### Automation
 
-
-
+![Automation](screenshots/AUTO1.png)
+![Automation](screenshots/AUTO2.png)
+![Automation](screenshots/AUTO3.png)
 
 
 
